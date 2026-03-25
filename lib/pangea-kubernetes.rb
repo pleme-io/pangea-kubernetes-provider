@@ -4,6 +4,8 @@
 require 'pangea-core'
 require 'terraform-synthesizer'
 
+module Pangea; module Resources; module Kubernetes; module Types; end; end; end; end
+
 # Kubernetes resources
 require_relative 'pangea/resources/kubernetes_annotations/resource'
 require_relative 'pangea/resources/kubernetes_api_service/resource'
